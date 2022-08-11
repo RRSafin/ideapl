@@ -1,0 +1,151 @@
+* {
+  transition: all 0.3s ease;
+}
+
+.ticket-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 120px;
+  width: 700px;
+  border-radius: 6px;
+  box-shadow: 0 0 4px 1px gainsboro;
+  margin: 0 0 20px 20px;
+  background-color: white;
+  &:hover {
+    box-shadow: 0 4px 15px 3px gainsboro;
+  }
+}
+
+.ticket-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  min-width: 180px;
+  padding: 20px;
+}
+
+.ticket-left__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px 20px 20px;
+  min-width: 140px;
+}
+
+.ticket-left__title__name {
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+  color: darkblue;
+}
+
+.ticket-left__title__name__img {
+  height: 40px;
+  min-width: 40px;
+  border-radius: 50%;
+  margin-left: 10px;
+  box-shadow: inset 1px 1.5px 5px 1px azure;
+}
+
+.TK {
+  background-color: #df1d1d;
+}
+.S7 {
+  background-color: #3cff2a;
+}
+.BA {
+  background-color: #ff3101;
+  box-shadow: inset 1px 1.5px 6px 1px #207bff;
+}
+.SU {
+  background-color: #2945ff;
+}
+
+.ticket-left__price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 60px;
+  width: 150px;
+  box-sizing: border-box;
+  background-color: darkorange;
+  border-radius: 10px;
+  box-shadow: inset 0 -1px 3px gray;
+  color: snow;
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 15px 3px lightblue;
+  }
+}
+
+.ticket-left__title__name__bottom {
+  text-align: center;
+  line-height: 1.1;
+  min-height: 20px;
+  min-width: 72px;
+}
+
+.sep {
+  background-color: lightgray;
+  min-height: 160px;
+  min-width: 1px;
+}
+
+.ticket-right {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-self: flex-start;
+  width: 600px;
+  padding: 20px;
+}
+
+.ticket-right__info__time {
+  font-size: xx-large;
+  color: #3b3b3b;
+}
+
+.ticket-right__info__dest {
+  color: #3b3b3b;
+  font-weight: bold;
+  font-size: small;
+  margin-top: 2px;
+}
+
+.ticket-right__info__date {
+  color: #3b3b3b;
+  font-size: small;
+  margin-top: 1px;
+}
+
+.ticket-right__transfer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ticket-right__transfer__info {
+  color: gray;
+}
+
+.ticket-right__transfer__line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ticket-right__transfer__line__sep {
+  height: 1px;
+  width: 180px;
+  background-color: gainsboro;
+  margin-top: 10px;
+}
+
+.ticket-right__transfer__line__arrow {
+  margin-top: 10px;
+  color: #b1b1b1;
+}
